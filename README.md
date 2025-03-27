@@ -111,11 +111,11 @@ The front-end will be running at `http://localhost:3000`.
 1. **Upload Employee Data**:
     - The front-end allows users to upload a CSV file containing employee names and email addresses.
     - The file should follow the format:
-          ```csv
-          Employee_Name	Employee_EmailID
-          Hamish Murray	hamish.murray@acme.com
-          Layla Graham	layla.graham@acme.com
-          ```
+```csv
+Employee_Name	Employee_EmailID
+Hamish Murray	hamish.murray@acme.com
+Layla Graham	layla.graham@acme.com
+```
 
 2. **Submit the CSV**:
     - Once the file is uploaded, the React app will send the data to the back-end via an API request.
