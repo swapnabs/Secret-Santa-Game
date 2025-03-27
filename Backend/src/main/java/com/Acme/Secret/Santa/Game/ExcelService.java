@@ -26,7 +26,6 @@ public class ExcelService {
      * @return List of employees extracted from the file.
      * @throws IOException if there is an error reading the file.
      */
-	@Test
     public List<Employee> readEmployeesFromXlsx(InputStream inputStream) throws IOException {
         List<Employee> employees = new ArrayList<>();
         try (Workbook workbook = new XSSFWorkbook(inputStream)) {
